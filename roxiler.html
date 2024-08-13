@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Home Control</title>
+    <link rel="stylesheet" href="roxiler.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>Smart Home Control</h1>
+        <div class="appliance-list">
+            <div class="appliance">
+                <h2>Fan</h2>
+                <button class="toggle-button">ON/OFF</button>
+                <input type="range" min="1" max="5" value="3" class="speed-slider">
+            </div>
+            <div class="appliance">
+                <h2>Air Conditioner</h2>
+                <button class="toggle-button">ON/OFF</button>
+                <input type="range" min="16" max="30" value="22" class="temp-slider">
+            </div>
+            <div class="appliance">
+                <h2>TV</h2>
+                <button class="toggle-button">ON/OFF</button>
+            </div>
+            <div class="appliance">
+                <h2>Lights</h2>
+                <button class="toggle-button">ON/OFF</button>
+                <input type="range" min="0" max="100" value="50" class="brightness-slider">
+                <input type="color" class="color-picker">
+            </div>
+            <div class="appliance">
+                <h2>Bulbs</h2>
+                <button class="toggle-button">ON/OFF</button>
+                <input type="range" min="0" max="100" value="50" class="brightness-slider">
+            </div>
+        </div>
+    </div>
+    <script src="roxiler.js"></script>
+</body>
+</html>
